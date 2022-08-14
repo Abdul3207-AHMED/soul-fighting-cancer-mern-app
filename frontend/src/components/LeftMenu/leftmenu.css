@@ -1,0 +1,80 @@
+.sidebarMenu {
+    padding: 20px;
+    height: 100%;
+    background-color: var(--primary-500);
+    top: 50px;
+    list-style: none;
+    padding: 5px;
+    border-radius: 15px;
+    position: sticky;
+}
+
+.sidebarListItem.active,
+.sidebarListItem:hover {
+  background-color: rgb(240, 240, 255);
+  width: 100%;
+}
+
+.sidebarTitle {
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: rgb(187, 186, 186);
+    font-weight: bold;
+  }
+
+.sidebarListItem1{
+    margin-bottom: 7px;
+    padding: 5px;
+    display: flex;
+    justify-content: left;
+    cursor: pointer;
+    align-items: center;
+    border-radius: 10px;
+    margin-left: 10px;
+    gap: 1rem;
+}
+.chat{
+    width: 30px;
+
+}
+.sidebarListItem2{
+    margin-bottom: 7px;
+    margin-left: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: left;
+    cursor: pointer;
+    align-items: center;
+    border-radius: 10px;
+    gap: 1rem;
+}
+
+.sidebarMenuList{
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    vertical-align: middle;
+    list-style: none;
+}
+
+.videochat{
+    width: 30px;
+    height: 30px;
+    border-radius: 30%;
+}
+.sidebarListItem1:hover {
+    transform: translateX(10px);
+}
+.sidebarListItem2:hover {
+    transform: translateX(10px);
+}
+
+@media (max-width: 800px) {
+    .sidebarMenu {
+        height: max-content;
+        border-radius: 0px;
+    }
+}
+

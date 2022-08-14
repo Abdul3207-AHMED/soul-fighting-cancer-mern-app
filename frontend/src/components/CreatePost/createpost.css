@@ -1,0 +1,98 @@
+.createpost {
+    background-color: var(--primary-500);
+    padding: 2rem 1.5rem;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.createPostWrapperPlaceHolder{
+    height: 80px;
+    background-color: var(--primary-500) ;
+    border-radius: 10px;
+    box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.15);
+}
+.createpostPlaceHolder{
+    display: flex;
+    align-items: center;
+    border: none;
+    padding: 10px 10px 10px 30px;
+}
+
+.appbar__profile__PlaceHolder{
+    width: 40px;
+	aspect-ratio: 1;
+	object-fit: cover;
+	border-radius: 50%;
+    margin-bottom: 12px;
+}
+
+.textArea {
+    height: 40px;
+    padding: 10px 0px 0px 10px;
+    border-radius: 30px;
+    border: none;
+    border: 1px solid #d3cbcb;
+    margin-left: 20px;
+    width: 80%;
+}
+.createPostWrapper{
+height: fit-content;
+}
+
+.createpost textarea {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100px;
+    resize: none;
+    color: black;
+    font-size: 1rem;
+    background-color: var(--primary-600);
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.createpost button,
+label div {
+    background-color: rgba(255, 255, 255, 0.158);
+    width: 50px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    position: relative;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+label div img,
+.createpost button img {
+    height: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-45%, -50%);
+}
+
+label div {
+    cursor: pointer;
+}
+
+.btns {
+    
+    display: flex;
+    gap: 1rem;
+    float: right;
+}
+
+.uploaded-image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+@media (max-width: 800px) {
+    .createpost {
+        padding: 1rem;
+    }
+}
